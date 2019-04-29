@@ -70,7 +70,9 @@ h1 {
   object-fit:cover;object-position:center;
   opacity:.5;
 }
-.hb:hover + .fullBg {opacity:1;transform:scale(1.02);}
+.hb:hover + .fullBg {
+  opacity:1;transform:scale(1.02);
+}
 .credits {
   position:fixed;
   bottom:0;right:0;
